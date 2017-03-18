@@ -7,11 +7,14 @@ class Calculadora:
         print(int(num1)+int(num2))
         #return int(num1) + int(num2)
 
-    def resta(self):
-        pass
+    def resta(self,num1,num2):
+        print(int(num1)-int(num2))
+        #return int(num1) - int(num2)
 
-    def multiplicacion(self):
-        pass
+    def multiplicacion(self,num1,num2):
+        print(int(num1)*int(num2))
+        #return int(num1) * int(num2)
 
-    def division(self):
-        pass
+    def division(self,num1,num2):
+        print(int(num1)/int(num2))
+        #retubr int(num1) / int(num2)
